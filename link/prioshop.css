@@ -1,0 +1,149 @@
+*{box-sizing: border-box;}
+
+#header p, #header span{
+	font-size: 12px;
+	
+}
+#header{
+	background:rgb(200,0,62);
+}
+#s1{
+	background: rgb(227, 0 , 71);
+}
+.search{
+	width: 50%;
+	border:none;
+	outline: none;
+margin-left: 15%;
+border-radius: 5px}
+
+.carousel-item{
+	height: 450px;
+}
+
+.crrousel-img-1{
+	background: url(../img/main-slide/all-web-web-site-catagory.webp);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	max-height: 295px;
+}
+.crrousel-img-2{
+		background: url(../img/main-slide/300048897.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position:center center ;
+	max-height: 295px;
+}
+.crrousel-img-3{
+			background: url(../img/main-slide/Super-Value-Pack-Category-Page-banner.webp);
+
+	background-size: ;
+	background-repeat: no-repeat;
+	background-position: ;
+	max-height: 295px;
+	width: 100%
+}
+
+.card-body p{
+	font-size: 16px;
+	font-family: Berlin Sans FB ;
+
+}
+
+.span{
+	font-size: 25px;
+	border-bottom: 3px solid red;
+	padding-right: 25px;
+	color: red;
+
+}
+hr{background: red}
+
+.cd{
+	height: 98%
+}
+
+#card-slide .carousel-indicators li,
+ #card-slide .carousel-control-prev-icon,
+ #card-slide .carousel-control-next-icon{
+	background-color: red;
+
+}
+
+#card-slide .carousel-item{
+	height: 350px;
+}
+
+
+.fab{
+	font-size: 22px;
+	color: white
+}
+.fas,.fa-envelope{
+	font-size: 20px;
+	color: silver
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px) {
+#header p, #header span{
+	font-size:16px
+
+
+}
+.search{
+	
+	margin-top: 10px;
+	
+}
+.im{
+	margin-left:25%;
+}
+}
+
+
+
+
+@media(max-width: 575px) {
+.search{
+	margin-left: 15%;
+	margin-top: 10px;
+	margin-bottom: 10px
+
+}
+.spn{
+	margin-left: 10%
+}
+}
+
+
+
+
+
+@media(max-width: 767px) {
+
+	.card-img{max-height: 200px }
+}
